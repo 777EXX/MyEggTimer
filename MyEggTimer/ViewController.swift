@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MyEggTimer
 //
-//  Created by Евгений on 09.04.2023.
+//  Created by Alexey on 09.04.2023.
 //
 
 import UIKit
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     private var currentEggTime = Int()
     private var totalTime: Float = 0
     
-    private let eggTimes = ["Soft": 300, "Medium": 420, "Hard": 720
+    private let eggTimes = ["Всмятку": 300, "В мешочек": 420, "Вкрутую": 720
     ]
     
     private let softTime = 5
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.init(hexString: "CBF2FC")
+        view.backgroundColor = UIColor.init(hexString: "A6ADFF")
         
         addViews()
         
@@ -173,7 +173,7 @@ class ViewController: UIViewController {
     }
     
     private func eggsDone() {
-        let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
+        let url = Bundle.main.url(forResource: "Крик петуха", withExtension: "mp3")
         player = try! AVAudioPlayer(contentsOf: url!)
         player?.play()
     }

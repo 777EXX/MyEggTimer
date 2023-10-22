@@ -2,7 +2,7 @@
 //  Views.swift
 //  MyEggTimer
 //
-//  Created by Евгений on 09.04.2023.
+//  Created by Alexey on 09.04.2023.
 //
 
 import UIKit
@@ -12,8 +12,8 @@ class Views {
     
     lazy var labelText: UILabel = {
         let label = UILabel()
-        label.text = "How do you like your eggs?"
-        label.font = .systemFont(ofSize: 30)
+        label.text = "Какие яйца вы любите?"
+        label.font = .boldSystemFont(ofSize: 30)
         label.textAlignment = .center
         label.contentMode = .left
         
@@ -22,27 +22,27 @@ class Views {
     
     lazy var softEggButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Soft", for: .normal)
-        button.titleLabel?.font = .systemFont(ofSize: 20)
-        button.setTitleColor(.white, for: .normal)
+        button.setTitle("Всмятку", for: .normal)
+        button.titleLabel?.font = .boldSystemFont(ofSize: 15)
+        button.setTitleColor(.black, for: .normal)
         
         return button
     }()
     
     lazy var mediumEggButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Medium", for: .normal)
-        button.titleLabel?.font = .systemFont(ofSize: 20)
-        button.setTitleColor(.white, for: .normal)
+        button.setTitle("В мешочек", for: .normal)
+        button.titleLabel?.font = .boldSystemFont(ofSize: 15)
+        button.setTitleColor(.black, for: .normal)
         
         return button
     }()
     
     lazy var hardEggButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Hard", for: .normal)
-        button.titleLabel?.font = .systemFont(ofSize: 20)
-        button.setTitleColor(.white, for: .normal)
+        button.setTitle("Вкрутую", for: .normal)
+        button.titleLabel?.font = .boldSystemFont(ofSize: 15)
+        button.setTitleColor(.black, for: .normal)
         
         return button
     }()
@@ -85,7 +85,7 @@ class Views {
         let midStackView = UIStackView()
         midStackView.axis = .horizontal
         midStackView.distribution = .fillEqually
-        midStackView.spacing = 20
+        midStackView.spacing = 10
         
         return midStackView
     }()

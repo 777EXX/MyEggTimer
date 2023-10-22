@@ -15,11 +15,11 @@
 		7E11C9B229E2C3AC005569AD /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11C9B129E2C3AC005569AD /* Views.swift */; };
 		7E11C9B529E2C3D9005569AD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7E11C9B429E2C3D9005569AD /* SnapKit */; };
 		7E11C9B729E2C413005569AD /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11C9B629E2C413005569AD /* UIColor + ext.swift */; };
-		7E11C9B929E2C4DF005569AD /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E11C9B829E2C4DF005569AD /* alarm_sound.mp3 */; };
+		FA952CBE2A262859005783F0 /* Крик петуха.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA952CBD2A262859005783F0 /* Крик петуха.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E11C99A29E2C34C005569AD /* MyEggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E11C99A29E2C34C005569AD /* Яйцеварка.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Яйцеварка.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E11C99D29E2C34C005569AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E11C99F29E2C34C005569AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7E11C9A129E2C34C005569AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,7 +28,7 @@
 		7E11C9AB29E2C34D005569AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E11C9B129E2C3AC005569AD /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		7E11C9B629E2C413005569AD /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
-		7E11C9B829E2C4DF005569AD /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		FA952CBD2A262859005783F0 /* Крик петуха.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Крик петуха.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 		7E11C99B29E2C34C005569AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E11C99A29E2C34C005569AD /* MyEggTimer.app */,
+				7E11C99A29E2C34C005569AD /* Яйцеварка.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,7 +68,7 @@
 				7E11C9B629E2C413005569AD /* UIColor + ext.swift */,
 				7E11C9B129E2C3AC005569AD /* Views.swift */,
 				7E11C9A629E2C34D005569AD /* Assets.xcassets */,
-				7E11C9B829E2C4DF005569AD /* alarm_sound.mp3 */,
+				FA952CBD2A262859005783F0 /* Крик петуха.mp3 */,
 				7E11C9A829E2C34D005569AD /* LaunchScreen.storyboard */,
 				7E11C9AB29E2C34D005569AD /* Info.plist */,
 			);
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E11C99929E2C34C005569AD /* MyEggTimer */ = {
+		7E11C99929E2C34C005569AD /* Яйцеварка */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E11C9AE29E2C34D005569AD /* Build configuration list for PBXNativeTarget "MyEggTimer" */;
+			buildConfigurationList = 7E11C9AE29E2C34D005569AD /* Build configuration list for PBXNativeTarget "Яйцеварка" */;
 			buildPhases = (
 				7E11C99629E2C34C005569AD /* Sources */,
 				7E11C99729E2C34C005569AD /* Frameworks */,
@@ -90,12 +90,12 @@
 			);
 			dependencies = (
 			);
-			name = MyEggTimer;
+			name = "Яйцеварка";
 			packageProductDependencies = (
 				7E11C9B429E2C3D9005569AD /* SnapKit */,
 			);
 			productName = MyEggTimer;
-			productReference = 7E11C99A29E2C34C005569AD /* MyEggTimer.app */;
+			productReference = 7E11C99A29E2C34C005569AD /* Яйцеварка.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E11C99929E2C34C005569AD /* MyEggTimer */,
+				7E11C99929E2C34C005569AD /* Яйцеварка */,
 			);
 		};
 /* End PBXProject section */
@@ -140,8 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E11C9AA29E2C34D005569AD /* LaunchScreen.storyboard in Resources */,
-				7E11C9B929E2C4DF005569AD /* alarm_sound.mp3 in Resources */,
 				7E11C9A729E2C34D005569AD /* Assets.xcassets in Resources */,
+				FA952CBE2A262859005783F0 /* Крик петуха.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V7HYWRF575;
+				DEVELOPMENT_TEAM = GQ2W38NG9G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyEggTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -307,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.MyEggTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -325,7 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V7HYWRF575;
+				DEVELOPMENT_TEAM = GQ2W38NG9G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyEggTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -337,7 +337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.MyEggTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.practicum.EggTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E11C9AE29E2C34D005569AD /* Build configuration list for PBXNativeTarget "MyEggTimer" */ = {
+		7E11C9AE29E2C34D005569AD /* Build configuration list for PBXNativeTarget "Яйцеварка" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E11C9AF29E2C34D005569AD /* Debug */,

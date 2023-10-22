@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  MyEggTimer
 //
-//  Created by Евгений on 09.04.2023.
+//  Created by Alexey on 09.04.2023.
 //
 
 import UIKit
